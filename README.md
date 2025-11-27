@@ -3,6 +3,8 @@
 This project downloads real PM2.5 data from the Copernicus Atmosphere Monitoring Service (CAMS),
 processes it, trains a machine-learning model, and predicts air quality in Bucharest.
 
+https://ads.atmosphere.copernicus.eu/datasets/cams-europe-air-quality-forecasts?tab=download
+
 ## Pipeline
 1. Download PM2.5 from Copernicus
 2. Process NetCDF
@@ -13,4 +15,5 @@ processes it, trains a machine-learning model, and predicts air quality in Bucha
 pip install -r requirements.txt
 
 ## Run
+
 main.py
